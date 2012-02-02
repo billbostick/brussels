@@ -33,10 +33,6 @@ a:hover {
 	color: #D4E5A3;
 }
 
-#masthead #site-name a, #masthead #site-name a:hover {
-  color: #fff;
-}
-
 #stripe {
 	background:#D3AA10;
 }
@@ -140,70 +136,6 @@ a:hover {
 #sidebar-right .sideblock-bottom-right,
 #sidebar-left .sideblock-bottom-right {
   background: url(../images/jette/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-top {
-  background: url(../images/jette/sideblock-top.png) repeat-x 0 0;
-}
-
-.sections .section-top-left {
-  background: url(../images/jette/sideblock-top-left.png) no-repeat 0 0;
-}
-
-.sections .section-top-right {
-  background: url(../images/jette/sideblock-top-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-cont-left {
-  background: url(../images/jette/sideblock-left.png) repeat-y 0 0;
-}
-
-.sections .section-cont-right {
-  background: url(../images/jette/sideblock-right.png) repeat-y 100% 100%;
-}
-
-.sections .section-bottom {
-  background: url(../images/jette/sideblock-bottom.png) repeat-x 0 0;
-}
-
-.sections .section-bottom-left {
-  background: url(../images/jette/sideblock-bottom-left.png) no-repeat 0 0;
-}
-
-.sections .section-bottom-right {
-  background: url(../images/jette/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.comment-top {
-  background: url(../images/jette/comment-top.png) repeat-x 0 0;
-}
-
-.comment-top-left {
-  background: url(../images/jette/comment-top-left.png) no-repeat 0 0;
-}
-
-.comment-top-right {
-  background: url(../images/jette/comment-top-right.png) no-repeat 100% 100%;
-}
-
-.comment-cont-left {
-  background: url(../images/jette/comment-left.png) repeat-y 0 0;
-}
-
-.comment-cont-right {
-  background: url(../images/jette/comment-right.png) repeat-y 100% 100%;
-}
-
-.comment-bottom {
-  background: url(../images/jette/comment-bottom.png) repeat-x 0 0;
-}
-
-.comment-bottom-left {
-  background: url(../images/jette/comment-bottom-left.png) no-repeat 0 0;
-}
-
-.comment-bottom-right {
-  background: url(../images/jette/comment-bottom-right.png) no-repeat 100% 100%;
 }
 
 .sections {
@@ -327,9 +259,8 @@ td.active {
 background-color:#ABCFD9;
 }
 
-#mission,
 .messages {
-background-color:#FEF4DE;
+background-color:#E6E2AF;
 border:1px solid #4279B3;
 }
 
@@ -368,10 +299,4 @@ li.collapsed {
 
 ul li {
 	list-style-image: url(../images/jette/menu-leaf-strong.gif);
-}
-
-.book-navigation .page-links {
-  border-bottom:3px solid #4279B3;
-  border-top:3px solid #4279B3;
-	background: #FEF4DE;
 }

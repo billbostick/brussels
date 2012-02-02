@@ -33,10 +33,6 @@ a:hover {
 	color: #A88E67;
 }
 
-#masthead #site-name a, #masthead #site-name a:hover {
-	color: #A88E67;
-}
-
 #stripe {
 	background:#993722;
 }
@@ -140,70 +136,6 @@ a:hover {
 #sidebar-right .sideblock-bottom-right,
 #sidebar-left .sideblock-bottom-right {
   background: url(../images/forest/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-top {
-  background: url(../images/forest/sideblock-top.png) repeat-x 0 0;
-}
-
-.sections .section-top-left {
-  background: url(../images/forest/sideblock-top-left.png) no-repeat 0 0;
-}
-
-.sections .section-top-right {
-  background: url(../images/forest/sideblock-top-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-cont-left {
-  background: url(../images/forest/sideblock-left.png) repeat-y 0 0;
-}
-
-.sections .section-cont-right {
-  background: url(../images/forest/sideblock-right.png) repeat-y 100% 100%;
-}
-
-.sections .section-bottom {
-  background: url(../images/forest/sideblock-bottom.png) repeat-x 0 0;
-}
-
-.sections .section-bottom-left {
-  background: url(../images/forest/sideblock-bottom-left.png) no-repeat 0 0;
-}
-
-.sections .section-bottom-right {
-  background: url(../images/forest/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.comment-top {
-  background: url(../images/forest/comment-top.png) repeat-x 0 0;
-}
-
-.comment-top-left {
-  background: url(../images/forest/comment-top-left.png) no-repeat 0 0;
-}
-
-.comment-top-right {
-  background: url(../images/forest/comment-top-right.png) no-repeat 100% 100%;
-}
-
-.comment-cont-left {
-  background: url(../images/forest/comment-left.png) repeat-y 0 0;
-}
-
-.comment-cont-right {
-  background: url(../images/forest/comment-right.png) repeat-y 100% 100%;
-}
-
-.comment-bottom {
-  background: url(../images/forest/comment-bottom.png) repeat-x 0 0;
-}
-
-.comment-bottom-left {
-  background: url(../images/forest/comment-bottom-left.png) no-repeat 0 0;
-}
-
-.comment-bottom-right {
-  background: url(../images/forest/comment-bottom-right.png) no-repeat 100% 100%;
 }
 
 .sections {
@@ -328,26 +260,25 @@ td.active {
 background-color:#ABCFD9;
 }
 
-#mission,
 .messages {
 background-color:#E6E2AF;
-border:1px solid #A88E67;
+border:1px solid #A7A37E;
 }
 
 ul.tabs li a {
-  border: 1px solid #A88E67;
+  border: 1px solid #A7A37E;
   background:#E6E2AF;
 }
 
 ul.tabs li a.active {
-  border: 1px solid #A88E67;
-  background:#A88E67;
+  border: 1px solid #A7A37E;
+  background:#A7A37E;
 	color: #fff;
 }
 
 ul.tabs li a:hover {
-  border: 1px solid #A88E67;
-  background:#A88E67;
+  border: 1px solid #A7A37E;
+  background:#A7A37E;
 	color: #fff;
 }
 
@@ -369,10 +300,4 @@ li.collapsed {
 
 ul li {
 	list-style-image: url(../images/forest/menu-leaf-strong.gif);
-}
-
-.book-navigation .page-links {
-  border-bottom:3px solid #A88E67;
-  border-top:3px solid #A88E67;
-	background: #E6E2AF;
 }

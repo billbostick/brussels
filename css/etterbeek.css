@@ -33,10 +33,6 @@ a:hover {
 	color: #DAF5FB;
 }
 
-#masthead #site-name a, #masthead #site-name a:hover {
-  color: #fff;
-}
-
 #stripe {
 	background:#A7A37E;
 }
@@ -141,70 +137,6 @@ a:hover {
 #sidebar-right .sideblock-bottom-right,
 #sidebar-left .sideblock-bottom-right {
   background: url(../images/etterbeek/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-top {
-  background: url(../images/etterbeek/sideblock-top.png) repeat-x 0 0;
-}
-
-.sections .section-top-left {
-  background: url(../images/etterbeek/sideblock-top-left.png) no-repeat 0 0;
-}
-
-.sections .section-top-right {
-  background: url(../images/etterbeek/sideblock-top-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-cont-left {
-  background: url(../images/etterbeek/sideblock-left.png) repeat-y 0 0;
-}
-
-.sections .section-cont-right {
-  background: url(../images/etterbeek/sideblock-right.png) repeat-y 100% 100%;
-}
-
-.sections .section-bottom {
-  background: url(../images/etterbeek/sideblock-bottom.png) repeat-x 0 0;
-}
-
-.sections .section-bottom-left {
-  background: url(../images/etterbeek/sideblock-bottom-left.png) no-repeat 0 0;
-}
-
-.sections .section-bottom-right {
-  background: url(../images/etterbeek/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.comment-top {
-  background: url(../images/etterbeek/comment-top.png) repeat-x 0 0;
-}
-
-.comment-top-left {
-  background: url(../images/etterbeek/comment-top-left.png) no-repeat 0 0;
-}
-
-.comment-top-right {
-  background: url(../images/etterbeek/comment-top-right.png) no-repeat 100% 100%;
-}
-
-.comment-cont-left {
-  background: url(../images/etterbeek/comment-left.png) repeat-y 0 0;
-}
-
-.comment-cont-right {
-  background: url(../images/etterbeek/comment-right.png) repeat-y 100% 100%;
-}
-
-.comment-bottom {
-  background: url(../images/etterbeek/comment-bottom.png) repeat-x 0 0;
-}
-
-.comment-bottom-left {
-  background: url(../images/etterbeek/comment-bottom-left.png) no-repeat 0 0;
-}
-
-.comment-bottom-right {
-  background: url(../images/etterbeek/comment-bottom-right.png) no-repeat 100% 100%;
 }
 
 .sections {
@@ -329,9 +261,8 @@ td.active {
 background-color:#ABCFD9;
 }
 
-#mission,
 .messages {
-background-color:#EFECCA;
+background-color:#E6E2AF;
 border:1px solid #A7A37E;
 }
 
@@ -370,10 +301,4 @@ li.collapsed {
 
 ul li {
 	list-style-image: url(../images/etterbeek/menu-leaf-strong.gif);
-}
-
-.book-navigation .page-links {
-  border-bottom:3px solid #A7A37E;
-  border-top:3px solid #A7A37E;
-	background: #EFECCA;
 }

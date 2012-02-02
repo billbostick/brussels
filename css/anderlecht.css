@@ -33,10 +33,6 @@ a:hover {
 	color: #BDBF7A;
 }
 
-#masthead #site-name a, #masthead #site-name a:hover {
-	color: #BDBF7A;
-}
-
 #stripe {
 	background:#D6B12D;
 }
@@ -140,70 +136,6 @@ a:hover {
 #sidebar-right .sideblock-bottom-right,
 #sidebar-left .sideblock-bottom-right {
   background: url(../images/anderlecht/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-top {
-  background: url(../images/anderlecht/sideblock-top.png) repeat-x 0 0;
-}
-
-.sections .section-top-left {
-  background: url(../images/anderlecht/sideblock-top-left.png) no-repeat 0 0;
-}
-
-.sections .section-top-right {
-  background: url(../images/anderlecht/sideblock-top-right.png) no-repeat 100% 100%;
-}
-
-.sections .section-cont-left {
-  background: url(../images/anderlecht/sideblock-left.png) repeat-y 0 0;
-}
-
-.sections .section-cont-right {
-  background: url(../images/anderlecht/sideblock-right.png) repeat-y 100% 100%;
-}
-
-.sections .section-bottom {
-  background: url(../images/anderlecht/sideblock-bottom.png) repeat-x 0 0;
-}
-
-.sections .section-bottom-left {
-  background: url(../images/anderlecht/sideblock-bottom-left.png) no-repeat 0 0;
-}
-
-.sections .section-bottom-right {
-  background: url(../images/anderlecht/sideblock-bottom-right.png) no-repeat 100% 100%;
-}
-
-.comment-top {
-  background: url(../images/anderlecht/comment-top.png) repeat-x 0 0;
-}
-
-.comment-top-left {
-  background: url(../images/anderlecht/comment-top-left.png) no-repeat 0 0;
-}
-
-.comment-top-right {
-  background: url(../images/anderlecht/comment-top-right.png) no-repeat 100% 100%;
-}
-
-.comment-cont-left {
-  background: url(../images/anderlecht/comment-left.png) repeat-y 0 0;
-}
-
-.comment-cont-right {
-  background: url(../images/anderlecht/comment-right.png) repeat-y 100% 100%;
-}
-
-.comment-bottom {
-  background: url(../images/anderlecht/comment-bottom.png) repeat-x 0 0;
-}
-
-.comment-bottom-left {
-  background: url(../images/anderlecht/comment-bottom-left.png) no-repeat 0 0;
-}
-
-.comment-bottom-right {
-  background: url(../images/anderlecht/comment-bottom-right.png) no-repeat 100% 100%;
 }
 
 .sections {
@@ -328,15 +260,14 @@ td.active {
 background-color:#ABCFD9;
 }
 
-#mission,
 .messages {
-background-color:#FFFED7;
+background-color:#E6E2AF;
 border:1px solid #636221;
 }
 
 ul.tabs li a {
   border: 1px solid #636221;
-  background:#FFFED7;
+  background:#E6E2AF;
 }
 
 ul.tabs li a.active {
@@ -369,10 +300,4 @@ li.collapsed {
 
 ul li {
 	list-style-image: url(../images/anderlecht/menu-leaf-strong.gif);
-}
-
-.book-navigation .page-links {
-  border-bottom:3px solid #636221;
-  border-top:3px solid #636221;
-	background: #FFFED7;
 }

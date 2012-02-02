@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language ?>" xml:lang="<?php print $language ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language ?>" xml:lang="<?php print $language->language ?>">
 <head>
 <title><?php print $head_title ?></title>
 <?php print $head ?><?php print $styles ?><?php print $scripts ?>
@@ -21,8 +21,8 @@
  
 <?php if ($left_sidebar_width = theme_get_setting('brussels_leftsidebarwidth')) { ?>
    <style type="text/css">
-      body.sidebar-left #main { margin-left: -<?php print ($left_sidebar_width) ?>px; }
-      body.sidebars #main { margin-left: -<?php print ($left_sidebar_width) ?>px; }
+      body.sidebar-left #main { margin-left: -<?php print ($left_sidebar_width + 10) ?>px; }
+      body.sidebars #main { margin-left: -<?php print ($left_sidebar_width + 10) ?>px; }
       body.sidebar-left #squeeze-top-right { margin-left: <?php print ($left_sidebar_width + 10) ?>px; }
       body.sidebar-left #squeeze-cont-right { margin-left: <?php print ($left_sidebar_width + 10) ?>px; }
       body.sidebar-left #squeeze-bottom-right { margin-left: <?php print ($left_sidebar_width + 10) ?>px; }
@@ -34,8 +34,8 @@
 <?php }  ?>
 <?php if ($right_sidebar_width = theme_get_setting('brussels_rightsidebarwidth')) { ?>
    <style type="text/css">
-      body.sidebar-right #main { margin-right: -<?php print ($right_sidebar_width) ?>px; }
-      body.sidebars #main { margin-right: -<?php print ($right_sidebar_width) ?>px; }
+      body.sidebar-right #main { margin-right: -<?php print ($right_sidebar_width + 10) ?>px; }
+      body.sidebars #main { margin-right: -<?php print ($right_sidebar_width + 10) ?>px; }
       body.sidebar-right #squeeze-top-right { margin-right: <?php print ($right_sidebar_width + 10) ?>px; }
       body.sidebar-right #squeeze-cont-right { margin-right: <?php print ($right_sidebar_width + 10) ?>px; }
       body.sidebar-right #squeeze-bottom-right { margin-right: <?php print ($right_sidebar_width + 10) ?>px; }
@@ -124,7 +124,7 @@
   <?php if ($primary_links) { ?>
     <div id="primary-links">
       <div class="container">
-        <?php print theme('menu_links', $primary_links); ?>
+        <?php print theme('links', $primary_links, array('class' => 'links primary-links')) ?>
       </div> <!-- /container -->
     </div><!-- /primary-links -->
   <?php } ?>
@@ -132,7 +132,7 @@
   <?php if ($secondary_links) { ?>
     <div id="secondary-links">
       <div class="container">
-        <?php print theme('menu_links', $secondary_links); ?>
+        <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
       </div> <!-- /container -->
     </div><!--secondary-links-->
   <?php } ?>
@@ -146,37 +146,18 @@
       ?>
       <?php if ($section1count) { ?>
         <?php $section1width = 'width' . floor(99 / $section1count); ?>
-        <div id="section1" class="sections clear-block clr">
-          <div class="section-top-right">
-            <div class="section-top-left">
-              <div class="section-top">
-              </div><!-- section-top -->
-            </div><!-- section-top-left -->
-          </div><!-- section-top-right-->
-          <div class="section-cont-right">
-            <div class="section-cont-left">
-              <div class="section-cont">
-                <div class="sections">
-                  <?php if ($user1) { ?>
-                    <div class="section <?php echo $section1width ?>"><?php print $user1; ?></div>
-                  <?php } ?>
-                  <?php if ($user2) { ?>
-                    <div class="section <?php echo $section1width ?>"><?php print $user2; ?></div>
-                  <?php } ?>
-                  <?php if ($user3) { ?>
-                    <div class="section <?php echo $section1width ?>"><?php print $user3; ?></div>
-                  <?php } ?>
-                  <div style="clear:both"></div>
-                </div> <!--/sections-->
-              </div> <!-- section-cont -->
-            </div> <!--section-cont-left -->
-          </div> <!-- section-cont-right -->
-          <div class="section-bottom-right">
-            <div class="section-bottom-left">
-              <div class="section-bottom">
-              </div><!--section-bottom-->
-            </div><!--section-bottom-left-->
-          </div><!--section-bottom-right-->
+        <div id="section1" class="clear-block clr">
+          <div class="sections">
+            <?php if ($user1) { ?>
+              <div class="section <?php echo $section1width ?>"><?php print $user1; ?></div>
+            <?php } ?>
+            <?php if ($user2) { ?>
+              <div class="section <?php echo $section1width ?>"><?php print $user2; ?></div>
+            <?php } ?>
+            <?php if ($user3) { ?>
+              <div class="section <?php echo $section1width ?>"><?php print $user3; ?></div>
+            <?php } ?>
+          </div> <!--/sections-->
         </div> <!-- /section1 -->
       <?php } ?>
       <div id="middlecontainer">
@@ -199,7 +180,7 @@
                       <div id="content-container">
                       <?php if (theme_get_setting('brussels_breadcrumb')) { ?>
                         <?php if ($breadcrumb) { ?>
-                          <?php print $breadcrumb; ?>
+                          <div id="breadcrumb"> <?php print $breadcrumb; ?> </div>
                         <?php } ?>
                       <?php } ?>
                       <?php if ($mission) { ?>
@@ -211,7 +192,7 @@
                       <?php if ($title) { ?><h1 class="title"><?php print $title ?></h1><?php } ?>
                       <?php if ($tabs) { ?><div class="tabs"><?php print $tabs ?></div><?php } ?>
                       <?php print $help ?> 
-                      <?php print $messages ?> 
+                      <?php if ($show_messages) { print $messages; } ?>
                       <?php print $content; ?> 
                       <?php print $feed_icons; ?>
                       <?php if ($content_bottom) { ?>
@@ -243,37 +224,18 @@
       ?>
       <?php if ($section2count) { ?>
         <?php $section2width = 'width' . floor(99 / $section2count); ?>
-        <div id="section2" class="sections clear-block clr" >
-          <div class="section-top-right">
-            <div class="section-top-left">
-              <div class="section-top">
-              </div><!-- section-top -->
-            </div><!-- section-top-left -->
-          </div><!-- section-top-right-->
-          <div class="section-cont-right">
-            <div class="section-cont-left">
-              <div class="section-cont">
-                <div class="sections">
-                  <?php if ($user4) { ?>
-                    <div class="section <?php echo $section2width ?>"><?php print $user4; ?></div>
-                  <?php } ?>
-                  <?php if ($user5) { ?>
-                    <div class="section <?php echo $section2width ?>"><?php print $user5; ?></div>
-                  <?php } ?>
-                  <?php if ($user6) { ?>
-                    <div class="section <?php echo $section2width ?>"><?php print $user6; ?></div>
-                  <?php } ?>
-                  <div style="clear:both"></div>
-                </div> <!-- /sections -->
-              </div> <!-- section-cont -->
-            </div> <!--section-cont-left -->
-          </div> <!-- section-cont-right -->
-          <div class="section-bottom-right">
-            <div class="section-bottom-left">
-              <div class="section-bottom">
-              </div><!--section-bottom-->
-            </div><!--section-bottom-left-->
-          </div><!--section-bottom-right-->
+        <div class="clear-block clr" id="section2">
+          <div class="sections">
+            <?php if ($user4) { ?>
+              <div class="section <?php echo $section2width ?>"><?php print $user4; ?></div>
+            <?php } ?>
+            <?php if ($user5) { ?>
+              <div class="section <?php echo $section2width ?>"><?php print $user5; ?></div>
+            <?php } ?>
+            <?php if ($user6) { ?>
+              <div class="section <?php echo $section2width ?>"><?php print $user6; ?></div>
+            <?php } ?>
+          </div> <!-- /sections -->
         </div> <!-- /section2 -->
       <?php } ?>
       <div style="clear:both"></div>

@@ -13,9 +13,11 @@ function phptemplate_body_class($sidebar_left, $sidebar_right) {
        $class = 'sidebar-right';
      }
    }
+ 
    if (isset($class)) {
      print ' class="'. $class .'"';
-  }
+}
+
 }
 
 if (is_null(theme_get_setting('brussels_style'))) {
@@ -48,23 +50,6 @@ if (is_null(theme_get_setting('brussels_style'))) {
   theme_get_setting('', TRUE);
 }
 
-function brussels_regions() {
-  return array(
-    'sidebar_left' => t('left sidebar'),
-    'sidebar_right' => t('right sidebar'),
-    'content_top' => t('content top'),
-    'content_bottom' => t('content bottom'),
-    'header' => t('header'),
-    'user1' => t('user1'),
-    'user2' => t('user2'),
-    'user3' => t('user3'),
-    'user4' => t('user4'),
-    'user5' => t('user5'),
-    'user6' => t('user6'),
-    'footer_region' => t('footer')
-  );
-} 
- 
 function get_brussels_style() {
   $style = theme_get_setting('brussels_style');
   if (!$style)
@@ -98,16 +83,7 @@ function _phptemplate_variables($hook, $vars) {
   return $vars;
 }
 
-function brussels_block($block) {
-  if (module_exists('blocktheme')) {
-    if ( $custom_theme = blocktheme_get_theme($block) ) {
-      return _phptemplate_callback($custom_theme,array('block' => $block));
-    }
-  }
-  return phptemplate_block($block);
-}
 
-/* If we're using a local content file, we want this to be the last CSS file that the page loads */
 if (theme_get_setting('brussels_uselocalcontent'))
 {
    $local_content = drupal_get_path('theme', 'brussels') . '/' . theme_get_setting('brussels_localcontentfile');
@@ -116,102 +92,51 @@ if (theme_get_setting('brussels_uselocalcontent'))
    }
 }
 
-// This code adds spans to the primary links so that we can display the tab images
-function phptemplate_menu_links($primary_links){
-  if ($plinks = $primary_links) {
-    foreach ($plinks as $key => $link) {
-      if (stristr($key, 'active')) {
-        $plinks[$key]['attributes']['class'] = 'active';
-      }
-      $plinks[$key]['html'] = true;
-      $plinks[$key]['title'] = '<span class="left"><span class="center">'.$link['title'].'</span></span><span  class="right"></span>';
-    }
-  return theme('links',$plinks, array('class' => 'links primary-links'));
-  }
-}
-
-// this code overrides drupals default theme_menu_tree in favor of the next routine
-function phptemplate_menu_tree($pid = 1) {
-  if ($tree = phptemplate_menu_tree_improved($pid)) {
-    return "\n<ul class=\"menu\">\n". $tree ."\n</ul>\n";
-  }
-}
-
-// This code adds several class selectors to menu items. We use the first and last class
-// in order to display the divider pipes between items in the footer menu
-function phptemplate_menu_tree_improved($pid = 1) {
-  $menu = menu_get_menu();
+function phptemplate_links($links, $attributes = array('class' => 'links')) {
   $output = '';
 
-  if (isset($menu['visible'][$pid]) && $menu['visible'][$pid]['children']) {
-    $num_children = count($menu['visible'][$pid]['children']);
-    for ($i=0; $i < $num_children; ++$i) {
-      $mid = $menu['visible'][$pid]['children'][$i];
-      $type = isset($menu['visible'][$mid]['type']) ? $menu['visible'][$mid]['type'] : NULL;
-      $children = isset($menu['visible'][$mid]['children']) ? $menu['visible'][$mid]['children'] : NULL;
-      $extraclass = $i == 0 ? 'first' : ($i == $num_children-1 ? 'last' : '');
-      $output .= theme('menu_item', $mid, menu_in_active_trail($mid) || ($type & MENU_EXPANDED) ? theme('menu_tree', $mid) : '', count($children) == 0, $extraclass);
+  if (count($links) > 0) {
+    $output = '<ul'. drupal_attributes($attributes) .'>';
+
+    $num_links = count($links);
+    $i = 1;
+
+    foreach ($links as $key => $link) {
+      $class = $key;
+
+      // Add first, last and active classes to the list of links to help out themers.
+      if ($i == 1) {
+        $class .= ' first';
       }
-  }
-  return $output;
-}
-
-// this function adds the expanded and collapsed class to menu items
-function phptemplate_menu_item($mid, $children = '', $leaf = TRUE, $extraclass = '') {
-  return '<li class="'. ($leaf ? 'leaf' : ($children ? 'expanded' : 'collapsed')) . ($extraclass ? ' ' . $extraclass : '') . '">'. menu_item_link($mid, TRUE, $extraclass) . $children ."</li>\n";
-}
-
-function phptemplate_breadcrumb($breadcrumb) {
-  if (!empty($breadcrumb)) {
-    $styled_breadcrumb = '/images/' . get_brussels_style() . '/menu-leaf-strong.gif';
-  	$output = '<div class="breadcrumb">';
-	$count = count($breadcrumb);
-	$i = 1;
-	foreach ($breadcrumb as $crumb) {
-		$output .= $crumb;
-		$i++;
-		if ($i <= $count) {	
-			$bullet = base_path() . path_to_theme() . $styled_breadcrumb;
-			$output .= ' <image src="' . $bullet . '" /> ';
-		}
-	}
-	$output .= '</div>';
-    return $output;
-  }
-}
-
-function phptemplate_book_navigation($node) {
-  $output = '';
-  $links = '';
-
-  if ($node->nid) {
-    $tree = book_tree($node->nid);
-
-    if ($prev = book_prev($node)) {
-      drupal_add_link(array('rel' => 'prev', 'href' => url('node/'. $prev->nid)));
-      $booknav_prev = '<image src="' . base_path() . path_to_theme() . '/images/' . get_brussels_style() . '/li-leaf-rev.gif'. '" /> ';
-      $booknav_next = '<image src="' . base_path() . path_to_theme() . '/images/' . get_brussels_style() . '/li-leaf.gif'. '" /> ';
-      $links .= l($booknav_prev . $prev->title, 'node/'. $prev->nid, array('class' => 'page-previous', 'title' => t('Go to previous page')), NULL, NULL, FALSE, TRUE);
-    }
-    if ($node->parent) {
-      drupal_add_link(array('rel' => 'up', 'href' => url('node/'. $node->parent)));
-      $links .= l(t('up'), 'node/'. $node->parent, array('class' => 'page-up', 'title' => t('Go to parent page')));
-    }
-    if ($next = book_next($node)) {
-      drupal_add_link(array('rel' => 'next', 'href' => url('node/'. $next->nid)));
-      $links .= l($next->title . $booknav_next, 'node/'. $next->nid, array('class' => 'page-next', 'title' => t('Go to next page')), NULL, NULL, FALSE, TRUE);
-    }
-
-    if (isset($tree) || isset($links)) {
-      $output = '<div class="book-navigation">';
-      if (isset($tree)) {
-        $output .= $tree;
+      if ($i == $num_links) {
+        $class .= ' last';
       }
-      if (isset($links)) {
-        $output .= '<div class="page-links clear-block">'. $links .'</div>';
+      if (isset($link['href']) && ($link['href'] == $_GET['q'] || ($link['href'] == '<front>' && drupal_is_front_page()))) {
+        $class .= ' active';
       }
-      $output .= '</div>';
+      $output .= '<li'. drupal_attributes(array('class' => $class)) .'>';
+
+      if (isset($link['href'])) {
+        // Pass in $link as $options, they share the same keys.
+				$title = '<span class="left"><span class="center">'. $link['title']. '</span></span><span  class="right"></span>';
+				$link['html'] = TRUE;
+        $output .= l($title, $link['href'], $link);
+      }
+      else if (!empty($link['title'])) {
+        // Some links are actually not links, but we wrap these in <span> for adding title and class attributes
+        if (empty($link['html'])) {
+          $link['title'] = check_plain($link['title']);
+        }
+        $span_attributes = '';
+        if (isset($link['attributes'])) {
+          $span_attributes = drupal_attributes($link['attributes']);
+        }
+        $output .= '<span'. $span_attributes .'>'. $link['title'] .'</span>';
+      }
+      $i++;
+      $output .= "</li>\n";
     }
+    $output .= '</ul>';
   }
   return $output;
 }
