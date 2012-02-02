@@ -1,0 +1,284 @@
+/* from blue.css */
+
+html {
+  background:#F7EAD4;
+}
+
+body {
+  color: #253133;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #73662C;
+}
+
+a:hover {
+  color: #73662C;
+}
+
+#masthead {
+  background: #6B0031;
+	color: #EFECCA;
+}
+
+#masthead a {
+	color: #C5BA8A;
+}
+
+#stripe {
+	background:#BC9847;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #253133;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #73662C;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .title, #masthead .title a,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #73662C;
+}
+
+#footer .title, #footer .title a {
+  color: #73662C;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#F7EAD4;
+}
+
+#squeeze-top {
+  background: url(../images/koekelberg/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/koekelberg/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/koekelberg/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/koekelberg/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/koekelberg/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/koekelberg/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/koekelberg/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #EFECCA url(../images/koekelberg/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/koekelberg/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/koekelberg/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/koekelberg/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/koekelberg/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/koekelberg/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/koekelberg/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/koekelberg/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/koekelberg/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #253133;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #73662C;
+}
+
+.sections .title,
+.sections .title a {
+  color: #73662C;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #F7EAD4;
+}
+
+#secondary-links a {
+  color: #F7EAD4;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #2A3411;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/koekelberg/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left, #primary-links li a.active .left, #primary-links li a:hover .left {
+  background: url(../images/koekelberg/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/koekelberg/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/koekelberg/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/koekelberg/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/koekelberg/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active-trail,
+#secondary-links a.active {
+  color: #2A3411;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/koekelberg/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/koekelberg/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/koekelberg/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/koekelberg/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/koekelberg/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/koekelberg/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #6B0031;
+}
+
+#secondary-links {
+  background: #F7EAD4;
+}
+
+div.admin-panel .body {
+  background: #FBF5EA;
+	border: 1px solid #6B0031;
+}
+
+tr.odd {
+  background-color: #E8E0D0 ;
+}
+
+tr.even {
+  background-color: #FBF5EA;
+}
+tr.watchdog-content .active {
+background:#EFECCA;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+.messages {
+background-color:#FBF5EA;
+border:1px solid #6B0031;
+}
+
+ul.tabs li a {
+  border: 1px solid #6B0031;
+  background:#E8E0D0;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #6B0031;
+  background:#6B0031;
+	color: #EFECCA;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #6B0031;
+  background:#6B0031;
+	color: #EFECCA;
+}

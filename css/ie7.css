@@ -1,0 +1,52 @@
+#primary-links li a,
+#secondary-links li a {
+  cursor: hand;
+}
+
+#primary-links {
+  line-height: 25px;
+}
+
+#primary-links li a .left {
+  display:inline-block;
+	height:16px;
+}
+
+#primary-links li a .right {
+  display:inline-block;
+	height:16px;
+  position:relative;
+	top:5px;
+}
+
+#primary-links li a .center {
+  display:inline-block;
+  margin-top:-4px;
+	height:16px;
+}
+
+#secondary-links li a .left {
+  display:inline-block;
+	height:16px;
+}
+
+#secondary-links li a .right {
+  display:inline-block;
+	height:16px;
+  position:relative;
+	top:2px;
+}
+
+#secondary-links li a .center {
+  display:inline-block;
+  margin-top:-4px;
+	height:16px;
+}
+
+#primary-links a {
+  font-size: 85%;
+}
+
+#secondary-links a {
+  font-size: 85%;
+}

@@ -1,0 +1,283 @@
+/* from blue.css */
+
+html {
+  background:#F8F7E0;
+}
+
+body {
+  color: #141B0B;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #78201C;
+}
+
+a:hover {
+  color: #AB6813;
+}
+
+#masthead {
+  background: #141B0B;
+	color: #F8F7E0;
+}
+
+#masthead a {
+	color: #F8DE98;
+}
+
+#stripe {
+	background:#AB6813;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #141B0B;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #78201C;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #78201C;
+}
+
+#masthead .title, #masthead .title a {
+  color: #F8DE98;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#F8F7E0;
+}
+
+#squeeze-top {
+  background: url(../images/schaarbeek/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/schaarbeek/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/schaarbeek/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/schaarbeek/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/schaarbeek/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/schaarbeek/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/schaarbeek/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #F8F7E0 url(../images/schaarbeek/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/schaarbeek/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/schaarbeek/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/schaarbeek/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/schaarbeek/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/schaarbeek/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/schaarbeek/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/schaarbeek/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/schaarbeek/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #141B0B;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #78201C;
+}
+
+.sections .title,
+.sections .title a {
+  color: #78201C;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #141B0B;
+}
+
+#secondary-links a {
+  color: #141B0B;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #F8F7E0;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/schaarbeek/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left, #primary-links li a.active .left, #primary-links li a:hover .left {
+  background: url(../images/schaarbeek/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/schaarbeek/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/schaarbeek/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/schaarbeek/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/schaarbeek/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active-trail,
+#secondary-links a.active {
+  color: #F8F7E0;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/schaarbeek/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/schaarbeek/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/schaarbeek/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/schaarbeek/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/schaarbeek/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/schaarbeek/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #141B0B;
+}
+
+#secondary-links {
+  background: #F8F7E0;
+}
+
+div.admin-panel .body {
+  background: #FFFBD9;
+	border: 1px solid #78201C;
+}
+
+tr.odd {
+  background-color: #FFF6DE ;
+}
+
+tr.even {
+  background-color: #FFFBD9;
+}
+tr.watchdog-content .active {
+background:#F8F7E0;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+.messages {
+background-color:#E6E2AF;
+border:1px solid #78201C;
+}
+
+ul.tabs li a {
+  border: 1px solid #78201C;
+  background:#E6E2AF;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #78201C;
+  background:#A7A37E;
+	color: #fff;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #78201C;
+  background:#A7A37E;
+	color: #fff;
+}

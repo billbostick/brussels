@@ -1,0 +1,379 @@
+/* from blue.css */
+
+html {
+  background:#046380;
+}
+
+body {
+  color: #002F2F;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #046380;
+}
+
+a:hover {
+  color: #046380;
+}
+
+#masthead {
+  background: #002F2F;
+	color: #EFECCA;
+}
+
+#masthead a {
+	color: #DAF5FB;
+}
+
+#masthead #site-name a, #masthead #site-name a:hover {
+  color: #fff;
+}
+
+#stripe {
+	background:#A7A37E;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #EFECCA;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #DAF5FB;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .title, #masthead .title a,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #DAF5FB;
+}
+
+#footer .title, #footer .title a {
+  color: #DAF5FB;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#046380;
+}
+
+#squeeze-top {
+  background: url(../images/etterbeek/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/etterbeek/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/etterbeek/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/etterbeek/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/etterbeek/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/etterbeek/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/etterbeek/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #EFECCA url(../images/etterbeek/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/etterbeek/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/etterbeek/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/etterbeek/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/etterbeek/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/etterbeek/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/etterbeek/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/etterbeek/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/etterbeek/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-top {
+  background: url(../images/etterbeek/sideblock-top.png) repeat-x 0 0;
+}
+
+.sections .section-top-left {
+  background: url(../images/etterbeek/sideblock-top-left.png) no-repeat 0 0;
+}
+
+.sections .section-top-right {
+  background: url(../images/etterbeek/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-cont-left {
+  background: url(../images/etterbeek/sideblock-left.png) repeat-y 0 0;
+}
+
+.sections .section-cont-right {
+  background: url(../images/etterbeek/sideblock-right.png) repeat-y 100% 100%;
+}
+
+.sections .section-bottom {
+  background: url(../images/etterbeek/sideblock-bottom.png) repeat-x 0 0;
+}
+
+.sections .section-bottom-left {
+  background: url(../images/etterbeek/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+.sections .section-bottom-right {
+  background: url(../images/etterbeek/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.comment-top {
+  background: url(../images/etterbeek/comment-top.png) repeat-x 0 0;
+}
+
+.comment-top-left {
+  background: url(../images/etterbeek/comment-top-left.png) no-repeat 0 0;
+}
+
+.comment-top-right {
+  background: url(../images/etterbeek/comment-top-right.png) no-repeat 100% 100%;
+}
+
+.comment-cont-left {
+  background: url(../images/etterbeek/comment-left.png) repeat-y 0 0;
+}
+
+.comment-cont-right {
+  background: url(../images/etterbeek/comment-right.png) repeat-y 100% 100%;
+}
+
+.comment-bottom {
+  background: url(../images/etterbeek/comment-bottom.png) repeat-x 0 0;
+}
+
+.comment-bottom-left {
+  background: url(../images/etterbeek/comment-bottom-left.png) no-repeat 0 0;
+}
+
+.comment-bottom-right {
+  background: url(../images/etterbeek/comment-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #EFECCA;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #DAF5FB;
+}
+
+.sections .title,
+.sections .title a {
+  color: #DAF5FB;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #046380;
+}
+
+#secondary-links a {
+  color: #046380;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #EFECCA;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/etterbeek/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left, #primary-links li a.active .left, #primary-links li a:hover .left {
+  background: url(../images/etterbeek/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/etterbeek/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/etterbeek/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/etterbeek/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/etterbeek/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active-trail,
+#secondary-links a.active {
+  color: #EFECCA;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/etterbeek/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/etterbeek/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/etterbeek/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/etterbeek/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/etterbeek/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/etterbeek/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #002F2F;
+}
+
+#secondary-links {
+  background: #046380;
+}
+
+div.admin-panel .body {
+  background: #EDEDE7;
+	border: 1px solid #A7A37E;
+}
+
+tr.odd {
+  background-color: #EDEDE7 ;
+}
+
+tr.even {
+  background-color: #F2F0D5;
+}
+tr.watchdog-content .active {
+background:#EFECCA;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+#mission,
+.messages {
+background-color:#EFECCA;
+border:1px solid #A7A37E;
+}
+
+ul.tabs li a {
+  border: 1px solid #A7A37E;
+  background:#E6E2AF;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #A7A37E;
+  background:#A7A37E;
+	color: #EFECCA;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #A7A37E;
+  background:#A7A37E;
+	color: #EFECCA;
+}
+
+li.leaf, .item-list ul li {
+	list-style-image: url(../images/etterbeek/li-leaf.gif);
+}
+
+li.leaf {
+	list-style-image: url(../images/etterbeek/menu-leaf.gif);
+}
+
+li.expanded {
+	list-style-image: url(../images/etterbeek/menu-expanded.gif);
+}
+
+li.collapsed {
+	list-style-image: url(../images/etterbeek/menu-collapsed.gif);
+}
+
+ul li {
+	list-style-image: url(../images/etterbeek/menu-leaf-strong.gif);
+}
+
+.book-navigation .page-links {
+  border-bottom:3px solid #A7A37E;
+  border-top:3px solid #A7A37E;
+	background: #EFECCA;
+}

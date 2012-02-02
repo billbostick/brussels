@@ -1,0 +1,283 @@
+/* from blue.css */
+
+html {
+  background:#FFF2D4;
+}
+
+body {
+  color: #002F2F;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #B39F71;
+}
+
+a:hover {
+  color: #B39F71;
+}
+
+#masthead {
+  background: #8392B3;
+	color: #fff;
+}
+
+#masthead a {
+	color: #D4E2FF;
+}
+
+#stripe {
+	background:#B39F71;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #002F2F;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #8392B3;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #B39F71;
+}
+
+#masthead .title, #masthead .title a {
+  color: #D4E2FF;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#FFF2D4;
+}
+
+#squeeze-top {
+  background: url(../images/uccle/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/uccle/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/uccle/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/uccle/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/uccle/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/uccle/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/uccle/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #FFF2D4 url(../images/uccle/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/uccle/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/uccle/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/uccle/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/uccle/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/uccle/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/uccle/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/uccle/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/uccle/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #002F2F;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #8392B3;
+}
+
+.sections .title,
+.sections .title a {
+  color: #B39F71;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #002F2F;
+}
+
+#secondary-links a {
+  color: #002F2F;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #002F2F;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/uccle/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left, #primary-links li a.active .left, #primary-links li a:hover .left {
+  background: url(../images/uccle/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/uccle/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/uccle/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/uccle/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/uccle/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active-trail,
+#secondary-links a.active {
+  color: #002F2F;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/uccle/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/uccle/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/uccle/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/uccle/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/uccle/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/uccle/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #8392B3;
+}
+
+#secondary-links {
+  background: #FFF2D4;
+}
+
+div.admin-panel .body {
+  background: #FFFAEE;
+	border: 1px solid #8392B3;
+}
+
+tr.odd {
+  background-color: #FFFAEE ;
+}
+
+tr.even {
+  background-color: #E3E6EE;
+}
+tr.watchdog-content .active {
+background:#FFF2D4;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+.messages {
+background-color:#FFFAEE;
+border:1px solid #8392B3;
+}
+
+ul.tabs li a {
+  border: 1px solid #8392B3;
+  background:#FFFAEE;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #8392B3;
+  background:#8392B3;
+	color: #fff;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #8392B3;
+  background:#8392B3;
+	color: #fff;
+}

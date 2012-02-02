@@ -1,0 +1,378 @@
+/* from blue.css */
+
+html {
+  background:#FFFED7;
+}
+
+body {
+  color: #002F2F;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #636221;
+}
+
+a:hover {
+  color: #636221;
+}
+
+#masthead {
+  background: #636221;
+	color: #FFFED7;
+}
+
+#masthead a {
+	color: #BDBF7A;
+}
+
+#masthead #site-name a, #masthead #site-name a:hover {
+	color: #BDBF7A;
+}
+
+#stripe {
+	background:#D6B12D;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #002F2F;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #636221;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #636221;
+}
+
+#masthead .title, #masthead .title a {
+  color: #D6B12D;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#FFFED7;
+}
+
+#squeeze-top {
+  background: url(../images/anderlecht/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/anderlecht/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/anderlecht/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/anderlecht/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/anderlecht/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/anderlecht/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/anderlecht/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #FFFED7 url(../images/anderlecht/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/anderlecht/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/anderlecht/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/anderlecht/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/anderlecht/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/anderlecht/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/anderlecht/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/anderlecht/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/anderlecht/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-top {
+  background: url(../images/anderlecht/sideblock-top.png) repeat-x 0 0;
+}
+
+.sections .section-top-left {
+  background: url(../images/anderlecht/sideblock-top-left.png) no-repeat 0 0;
+}
+
+.sections .section-top-right {
+  background: url(../images/anderlecht/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-cont-left {
+  background: url(../images/anderlecht/sideblock-left.png) repeat-y 0 0;
+}
+
+.sections .section-cont-right {
+  background: url(../images/anderlecht/sideblock-right.png) repeat-y 100% 100%;
+}
+
+.sections .section-bottom {
+  background: url(../images/anderlecht/sideblock-bottom.png) repeat-x 0 0;
+}
+
+.sections .section-bottom-left {
+  background: url(../images/anderlecht/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+.sections .section-bottom-right {
+  background: url(../images/anderlecht/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.comment-top {
+  background: url(../images/anderlecht/comment-top.png) repeat-x 0 0;
+}
+
+.comment-top-left {
+  background: url(../images/anderlecht/comment-top-left.png) no-repeat 0 0;
+}
+
+.comment-top-right {
+  background: url(../images/anderlecht/comment-top-right.png) no-repeat 100% 100%;
+}
+
+.comment-cont-left {
+  background: url(../images/anderlecht/comment-left.png) repeat-y 0 0;
+}
+
+.comment-cont-right {
+  background: url(../images/anderlecht/comment-right.png) repeat-y 100% 100%;
+}
+
+.comment-bottom {
+  background: url(../images/anderlecht/comment-bottom.png) repeat-x 0 0;
+}
+
+.comment-bottom-left {
+  background: url(../images/anderlecht/comment-bottom-left.png) no-repeat 0 0;
+}
+
+.comment-bottom-right {
+  background: url(../images/anderlecht/comment-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #002F2F;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #636221;
+}
+
+.sections .title,
+.sections .title a {
+  color: #636221;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #002F2F;
+}
+
+#secondary-links a {
+  color: #002F2F;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #002F2F;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/anderlecht/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left , #primary-links li a.active .left , #primary-links li a:hover .left {
+  background: url(../images/anderlecht/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/anderlecht/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/anderlecht/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/anderlecht/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/anderlecht/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active-trail,
+#secondary-links a.active {
+  color: #002F2F;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/anderlecht/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/anderlecht/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/anderlecht/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/anderlecht/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/anderlecht/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/anderlecht/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #636221;
+}
+
+#secondary-links {
+  background: #FFFED7;
+}
+
+div.admin-panel .body {
+  background: #FFFED7;
+	border: 1px solid #636221;
+}
+
+tr.odd {
+  background-color: #E7E7CF ;
+}
+
+tr.even {
+  background-color: #FFFED7;
+}
+tr.watchdog-content .active {
+background:#FFFED7;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+#mission,
+.messages {
+background-color:#FFFED7;
+border:1px solid #636221;
+}
+
+ul.tabs li a {
+  border: 1px solid #636221;
+  background:#FFFED7;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #636221;
+  background:#A7A37E;
+	color: #fff;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #636221;
+  background:#636221;
+	color: #fff;
+}
+
+li.leaf, .item-list ul li {
+	list-style-image: url(../images/anderlecht/li-leaf.gif);
+}
+
+li.leaf {
+	list-style-image: url(../images/anderlecht/menu-leaf.gif);
+}
+
+li.expanded {
+	list-style-image: url(../images/anderlecht/menu-expanded.gif);
+}
+
+li.collapsed {
+	list-style-image: url(../images/anderlecht/menu-collapsed.gif);
+}
+
+ul li {
+	list-style-image: url(../images/anderlecht/menu-leaf-strong.gif);
+}
+
+.book-navigation .page-links {
+  border-bottom:3px solid #636221;
+  border-top:3px solid #636221;
+	background: #FFFED7;
+}

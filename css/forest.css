@@ -1,0 +1,378 @@
+/* from blue.css */
+
+html {
+  background:#D1CF9E;
+}
+
+body {
+  color: #253133;		/* font color */
+}
+
+a:link,
+a:visited,
+.title, .title a,
+.submitted,
+.links,
+.node .taxonomy,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+  color: #993722;
+}
+
+a:hover {
+  color: #993722;
+}
+
+#masthead {
+  background: #253133;
+	color: #D1CF9E;
+}
+
+#masthead a {
+	color: #A88E67;
+}
+
+#masthead #site-name a, #masthead #site-name a:hover {
+	color: #A88E67;
+}
+
+#stripe {
+	background:#993722;
+}
+
+#sidebar-left, #sidebar-right, #footer {
+	color: #253133;
+}
+
+#sidebar-left a, #sidebar-right a {
+	color: #993722;
+}
+
+#footer .title, #footer .title a,
+#footer .form-item label,
+#masthead .form-item label,
+#sidebar-left .title, #sidebar-left .title a,
+#sidebar-left .form-item label,
+#sidebar-right .title, #sidebar-right .title a,
+#sidebar-right .form-item label {
+	color: #993722;
+}
+
+#masthead .title, #masthead .title a {
+  color: #A88E67;
+}
+
+#footer .form-required,
+#masthead .form-required,
+#sidebar-left .form-required,
+#sidebar-right .form-required {
+  color: #fff;
+}
+
+#lower-page {
+  background:#D1CF9E;
+}
+
+#squeeze-top {
+  background: url(../images/forest/squeeze-top.png) repeat-x 0 0;
+}
+#squeeze-top-left {
+  background: url(../images/forest/squeeze-top-left.png) no-repeat 0 0;
+}
+#squeeze-top-right {
+  background: url(../images/forest/squeeze-top-right.png) no-repeat 100% 100%;
+}
+
+#squeeze-cont-left {
+  background: url(../images/forest/squeeze-left.png) repeat-y 0 0;
+}
+
+#squeeze-cont-right {
+  background: #fff url(../images/forest/squeeze-right.png) repeat-y 100% 100%;
+}
+
+#squeeze-bottom {
+  background: url(../images/forest/squeeze-bottom.png) repeat-x 0 0;
+}
+#squeeze-bottom-left {
+  background: url(../images/forest/squeeze-bottom-left.png) no-repeat 0 0;
+}
+#squeeze-bottom-right {
+  background: #D1CF9E url(../images/forest/squeeze-bottom-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-top,
+#sidebar-left .sideblock-top {
+  background: url(../images/forest/sideblock-top.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-top-left,
+#sidebar-left .sideblock-top-left {
+  background: url(../images/forest/sideblock-top-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-top-right,
+#sidebar-left .sideblock-top-right {
+  background: url(../images/forest/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+#sidebar-right .sideblock-cont-left,
+#sidebar-left .sideblock-cont-left {
+  background: url(../images/forest/sideblock-left.png) repeat-y 0 0;
+}
+
+#sidebar-right .sideblock-cont-right,
+#sidebar-left .sideblock-cont-right {
+  background: url(../images/forest/sideblock-right.png) repeat-y 100% 100%;
+}
+
+#sidebar-right .sideblock-bottom,
+#sidebar-left .sideblock-bottom {
+  background: url(../images/forest/sideblock-bottom.png) repeat-x 0 0;
+}
+
+#sidebar-right .sideblock-bottom-left,
+#sidebar-left .sideblock-bottom-left {
+  background: url(../images/forest/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+#sidebar-right .sideblock-bottom-right,
+#sidebar-left .sideblock-bottom-right {
+  background: url(../images/forest/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-top {
+  background: url(../images/forest/sideblock-top.png) repeat-x 0 0;
+}
+
+.sections .section-top-left {
+  background: url(../images/forest/sideblock-top-left.png) no-repeat 0 0;
+}
+
+.sections .section-top-right {
+  background: url(../images/forest/sideblock-top-right.png) no-repeat 100% 100%;
+}
+
+.sections .section-cont-left {
+  background: url(../images/forest/sideblock-left.png) repeat-y 0 0;
+}
+
+.sections .section-cont-right {
+  background: url(../images/forest/sideblock-right.png) repeat-y 100% 100%;
+}
+
+.sections .section-bottom {
+  background: url(../images/forest/sideblock-bottom.png) repeat-x 0 0;
+}
+
+.sections .section-bottom-left {
+  background: url(../images/forest/sideblock-bottom-left.png) no-repeat 0 0;
+}
+
+.sections .section-bottom-right {
+  background: url(../images/forest/sideblock-bottom-right.png) no-repeat 100% 100%;
+}
+
+.comment-top {
+  background: url(../images/forest/comment-top.png) repeat-x 0 0;
+}
+
+.comment-top-left {
+  background: url(../images/forest/comment-top-left.png) no-repeat 0 0;
+}
+
+.comment-top-right {
+  background: url(../images/forest/comment-top-right.png) no-repeat 100% 100%;
+}
+
+.comment-cont-left {
+  background: url(../images/forest/comment-left.png) repeat-y 0 0;
+}
+
+.comment-cont-right {
+  background: url(../images/forest/comment-right.png) repeat-y 100% 100%;
+}
+
+.comment-bottom {
+  background: url(../images/forest/comment-bottom.png) repeat-x 0 0;
+}
+
+.comment-bottom-left {
+  background: url(../images/forest/comment-bottom-left.png) no-repeat 0 0;
+}
+
+.comment-bottom-right {
+  background: url(../images/forest/comment-bottom-right.png) no-repeat 100% 100%;
+}
+
+.sections {
+  color: #253133;
+}
+
+#footer a,
+.sections a,
+.sections a:link,
+.sections .title,
+.sections .title a {
+  color: #993722;
+}
+
+.sections .title,
+.sections .title a {
+  color: #993722;
+}
+
+
+/* Menu styles */
+
+/* Primary and Secondary links */
+
+#primary-links a {
+  color: #D1CF9E;
+}
+
+#secondary-links a {
+  color: #D1CF9E;
+}
+
+#primary-links a:hover,
+#primary-links a.active-trail,
+#primary-links a.active {
+  color: #D1CF9E;
+}
+
+#primary-links li a .left , #primary-links li a .left {
+  background: url(../images/forest/plinks-tab-left.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .left, #primary-links li a.active .left, #primary-links li a:hover .left {
+  background: url(../images/forest/plinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#primary-links li a .right , #primary-links li a .right {
+  background: url(../images/forest/plinks-tab-right.png) no-repeat 0 0;
+}
+
+#primary-links li a.active-trail .right, #primary-links li a.active .right, #primary-links li a:hover .right {
+  background: url(../images/forest/plinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#primary-links li a .center, #primary-links li a .center {
+  background: url(../images/forest/plinks-tab.png) repeat-x 0 0;
+}
+
+#primary-links li a.active-trail .center, #primary-links li a.active .center, #primary-links li a:hover .center {
+  background: url(../images/forest/plinks-tab-active.png) repeat-x 0 0;
+}
+
+#secondary-links a:hover,
+#secondary-links a.active,
+#secondary-links a.active {
+  color: #D1CF9E;
+}
+
+#secondary-links li a .left , #secondary-links li a .left {
+  background: url(../images/forest/slinks-tab-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a.active-trail .left, #secondary-links li a.active .left, #secondary-links li a:hover .left {
+  background: url(../images/forest/slinks-tab-active-left.png) no-repeat 0 0;
+}
+
+#secondary-links li a .right , #secondary-links li a .right {
+  background: url(../images/forest/slinks-tab-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a.active-trail .right, #secondary-links li a.active .right, #secondary-links li a:hover .right {
+  background: url(../images/forest/slinks-tab-active-right.png) no-repeat -2px 0;
+}
+
+#secondary-links li a .center, #secondary-links li a .center {
+  background: url(../images/forest/slinks-tab.png) repeat-x 0 0;
+}
+
+#secondary-links li a.active-trail .center, #secondary-links li a.active .center, #secondary-links li a:hover .center {
+  background: url(../images/forest/slinks-tab-active.png) repeat-x 0 0;
+}
+
+#primary-links {
+  background: #253133;
+}
+
+#secondary-links {
+  background: #D1CF9E;
+}
+
+div.admin-panel .body {
+  background: #F1F1E2;
+	border: 1px solid #A7A37E;
+}
+
+tr.odd {
+  background-color: #E2E2D8 ;
+}
+
+tr.even {
+  background-color: #F2F0D5;
+}
+tr.watchdog-content .active {
+background:#D1CF9E;
+}
+
+tr.watchdog-user .active {
+background:#C5C4AB;
+}
+
+td.active {
+background-color:#ABCFD9;
+}
+
+#mission,
+.messages {
+background-color:#E6E2AF;
+border:1px solid #A88E67;
+}
+
+ul.tabs li a {
+  border: 1px solid #A88E67;
+  background:#E6E2AF;
+}
+
+ul.tabs li a.active {
+  border: 1px solid #A88E67;
+  background:#A88E67;
+	color: #fff;
+}
+
+ul.tabs li a:hover {
+  border: 1px solid #A88E67;
+  background:#A88E67;
+	color: #fff;
+}
+
+li.leaf, .item-list ul li {
+	list-style-image: url(../images/forest/li-leaf.gif);
+}
+
+li.leaf {
+	list-style-image: url(../images/forest/menu-leaf.gif);
+}
+
+li.expanded {
+	list-style-image: url(../images/forest/menu-expanded.gif);
+}
+
+li.collapsed {
+	list-style-image: url(../images/forest/menu-collapsed.gif);
+}
+
+ul li {
+	list-style-image: url(../images/forest/menu-leaf-strong.gif);
+}
+
+.book-navigation .page-links {
+  border-bottom:3px solid #A88E67;
+  border-top:3px solid #A88E67;
+	background: #E6E2AF;
+}
